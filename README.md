@@ -21,3 +21,8 @@ El proceso funciona de la siguiente manera:
 
 # Fase 3. Dasarrollo
 Basándonos en el análisis y diagrama de flujo se realizo el código para ver nuestro resultado del juego.
+Sus funciones principales son:
+• Mecánicas: El jugador gestiona su vida, hambre y sed. Avanzar consume recursos y, si se agotan, se pierde vida.
+• Combate por turnos: Permite atacar (el daño varía según el arma: puños, madera o hierro) o curarse con pociones.
+• Niveles (1 al 4): El jugador progresa tomando decisiones como recolectar recursos, resolver un acertijo, comprar equipo (escudo), reclutar un aliado y recuperar sus poderes.
+• Fin del juego: Si el jugador se queda sin vida en cualquier punto, pierde; si derrota al jefe en el nivel 4, logra la victoria.
