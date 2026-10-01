@@ -19,7 +19,7 @@ El proceso funciona de la siguiente manera:
 • Acción 2 (Usar Poción): Si quedan pociones, consume una y cura 40 HP al jugador (máximo 100 HP). Si no quedan, avisa que no hay disponibles.
 • Desenlace: Cuando uno se queda sin vida, termina el bucle. Si el jugador sobrevivió, se anuncia su victoria y la función devuelve "Verdadero" (sigue vivo); si murió, devuelve "Falso".
 
-# Fase 3. Dasarrollo
+# Fase 3. Desarrollo
 Basándonos en el análisis y diagrama de flujo se realizo el código para ver nuestro resultado del juego.
 Sus funciones principales son:
 • Mecánicas: El jugador gestiona su vida, hambre y sed. Avanzar consume recursos y, si se agotan, se pierde vida.
