@@ -12,6 +12,12 @@ Durante la partida, el jugador experimentará el siguiente desarrollo:
 
 # Fase 2. Diseño
 Realizamos un diagrama de flujo sobre nuestro juego y señalamos donde encuentra la clase padre e hij@s.
+El proceso funciona de la siguiente manera:
+• Inicio: Se declaran las variables de estado y se anuncia la aparición del enemigo en pantalla.
+• Bucle de combate: Mientras el jugador y el enemigo tengan vida (HP > 0), el juego muestra la vida actual de ambos y pide elegir una acción.
+• Acción 1 (Atacar): Resta el daño del jugador a la vida del enemigo. Si el enemigo sobrevive, este contraataca reduciendo la vida del jugador.
+• Acción 2 (Usar Poción): Si quedan pociones, consume una y cura 40 HP al jugador (máximo 100 HP). Si no quedan, avisa que no hay disponibles.
+• Desenlace: Cuando uno se queda sin vida, termina el bucle. Si el jugador sobrevivió, se anuncia su victoria y la función devuelve "Verdadero" (sigue vivo); si murió, devuelve "Falso".
 
 # Fase 3. Dasarrollo
 Basándonos en el análisis y diagrama de flujo se realizo el código para ver nuestro resultado del juego.
